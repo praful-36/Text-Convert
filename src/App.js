@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from "./compoents/Navbars";
 import Textform from "./compoents/Textform";
 import About from "./compoents/About";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Silde from './compoents/Silde';
 
 
