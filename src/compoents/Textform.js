@@ -60,11 +60,11 @@ export default function Textform() {
       <div className="container my-4">
         <div className="mb-3">
           <h2 className="my-3 text-light">Enter Your Text Here :-</h2>
-          <textarea className="form-control Textarea" id="exampleFormControlTextarea1" rows={9} value={text} onChange={handletext} placeholder='Type or Paste your text here' ></textarea>
+          <textarea className="form-control Textarea w-33" id="exampleFormControlTextarea1" rows={9} value={text} onChange={handletext} placeholder='Type or Paste your text here' ></textarea>
         </div>
       </div>
 
-      <div className="container my-4" >
+      <div className="container my-4 w-33" >
 
         <div className="text-summary d-flex justify-content-between my-3">
           <div className="total-words text-light">total words count:{text.split(" ").filter((element) => {
@@ -74,7 +74,7 @@ export default function Textform() {
           <div className="total-character text-light">total characters count:{text.length}</div>
         </div>
 
-        <div className="d-flex justify-content-around">
+        <div className="d-flex justify-content-around w-33 Case">
           <button className="btn btn-success mx-3 my-3" onClick={handleUpperclick}>Convert to Upper Case</button>
           <button className="btn btn-success mx-3 my-3" onClick={handleLowerclick}>Convert to Lower Case</button>
 
