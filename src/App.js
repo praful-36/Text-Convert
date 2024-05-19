@@ -3,10 +3,8 @@ import './App.css';
 import Navbar from "./compoents/Navbars";
 import Textform from "./compoents/Textform";
 import About from "./compoents/About";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import Silde from './compoents/Silde';
-
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Footer from './compoents/Footer';
 
 function App() {
   return (
@@ -14,13 +12,14 @@ function App() {
 
       <Router>
 
-        <Navbar title="KYN" abouttext="about text here" />
+        <Navbar />
         
         <Routes>
           <Route path="/" element={<Textform />} />
           <Route path="/about" element={<About />} />
-          <Route path="/Silde" element={<Silde />} />
         </Routes>
+
+        <Footer/>
 
       </Router>
 

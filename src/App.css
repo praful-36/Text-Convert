@@ -1,7 +1,13 @@
-
-
 body{
   background-color: #5d6786;
+}
+
+.textform{
+  height: 74vh;
+}
+
+textarea{
+  resize: none;
 }
 
 .Textarea::placeholder{
@@ -13,21 +19,30 @@ body{
   font-size: 20px;
 }
 
+.w-33{
+  font-size: 24px;
+}
+
 @media only screen and (max-width: 500px) {
 
-
   .Navbar{
-    width: 35rem!important;
+    width: 30rem!important;
+  }
+
+  .textform{
+    height: 90vh;
   }
   
-
-
 .w-33{
-  width: 33rem;
+  width: 27rem;
 }
 
 .Case{
   flex-direction: column;
+}
+
+.footer{
+  width: 30rem!important;
 }
 
 }

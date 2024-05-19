@@ -1,47 +1,37 @@
-import React from 'react'
+import React from 'react';
 
-
-export default function About() {
+const About = () => {
   return (
-   <div className="container my-4">
-     <div className="accordion" id="accordionExample">
-    <div className="accordion-item">
-      <h2 className="accordion-header">
-        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Accordion Item #1
-        </button>
-      </h2>
-      <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-        <div className="accordion-body">
-          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+    <div className="container mt-5 py-3">
+      <div className="row justify-content-center">
+        <div className="col-md-8">
+          <div className="p-4 border rounded bg-light">
+            <h1>About Text Converter App</h1>
+            <p>
+              Welcome to the Text Converter App! This app allows you to easily manipulate text in various ways. Here are the key features:
+            </p>
+            <ul>
+              <li>Convert text to uppercase.</li>
+              <li>Convert text to lowercase.</li>
+              <li>Capitalize each word in the text.</li>
+              <li>Convert text to sentence case.</li>
+              <li>Copy the converted text with a single click.</li>
+              <li>Display the number of words and characters in the text.</li>
+            </ul>
+            <p>
+              This application was built using React, a powerful JavaScript library for building user interfaces, and Bootstrap, a popular CSS framework, to ensure a responsive and visually appealing design.
+            </p>
+            <p>
+              Motivation: The idea behind this app was to create a simple yet effective tool that helps with everyday text manipulation tasks. Whether you are writing an email, creating a document, or just playing around with text, this app aims to make your life easier.
+            </p>
+            <p>
+              We hope you find this app useful and enjoy using it as much as we enjoyed creating it!
+            </p>
+          </div>
         </div>
       </div>
     </div>
-    <div className="accordion-item">
-      <h2 className="accordion-header">
-        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Accordion Item #2
-        </button>
-      </h2>
-      <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
-        <div className="accordion-body">
-          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-        </div>
-      </div>
-    </div>
-    <div className="accordion-item">
-      <h2 className="accordion-header">
-        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Accordion Item #3
-        </button>
-      </h2>
-      <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
-        <div className="accordion-body">
-          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-        </div>
-      </div>
-    </div>
-  </div>
-   </div>
-  )
-}
+  );
+};
+
+export default About;
