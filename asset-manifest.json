@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Text-Convert/static/css/main.6b65f6b5.css",
-    "main.js": "/Text-Convert/static/js/main.3c36ac6e.js",
-    "static/js/787.28cb0dcd.chunk.js": "/Text-Convert/static/js/787.28cb0dcd.chunk.js",
-    "static/media/insta.png": "/Text-Convert/static/media/insta.c4cd204eed7d6b1098a7.png",
-    "static/media/linkedin.png": "/Text-Convert/static/media/linkedin.df3f373c358bcfdd92bb.png",
-    "index.html": "/Text-Convert/index.html",
-    "main.6b65f6b5.css.map": "/Text-Convert/static/css/main.6b65f6b5.css.map",
-    "main.3c36ac6e.js.map": "/Text-Convert/static/js/main.3c36ac6e.js.map",
-    "787.28cb0dcd.chunk.js.map": "/Text-Convert/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/Textify/static/css/main.6b65f6b5.css",
+    "main.js": "/Textify/static/js/main.36c6fd17.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Textify/static/js/787.28cb0dcd.chunk.js",
+    "static/media/insta.png": "/Textify/static/media/insta.c4cd204eed7d6b1098a7.png",
+    "static/media/linkedin.png": "/Textify/static/media/linkedin.df3f373c358bcfdd92bb.png",
+    "index.html": "/Textify/index.html",
+    "main.6b65f6b5.css.map": "/Textify/static/css/main.6b65f6b5.css.map",
+    "main.36c6fd17.js.map": "/Textify/static/js/main.36c6fd17.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Textify/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b65f6b5.css",
-    "static/js/main.3c36ac6e.js"
+    "static/js/main.36c6fd17.js"
   ]
 }
