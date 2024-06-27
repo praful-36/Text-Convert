@@ -1,8 +1,8 @@
 import './App.css';
-import Navbar from "./compoents/Navbars";
-import Textform from "./compoents/Textform";
-import About from "./compoents/About";
-import Footer from './compoents/Footer';
+import Navbar from "./components/Navbars";
+import Textform from "./components/Textform";
+import About from "./components/About";
+import Footer from './components/Footer';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
