@@ -14,11 +14,9 @@ const Footer = () => {
             <a href="https://www.instagram.com/prafulgosavi1" className="btn text-white btn-floating m-1" style={{ backgroundColor: '#ac2bac' }} role="button" target="_blank" rel="noopener noreferrer" alt="insta">
               <img src={insta} alt="" width={30}/>
             </a>
-
             <a href="https://www.linkedin.com/in/praful-gosavi-38b012280" className="btn text-white btn-floating m-1" style={{ backgroundColor: '#0082ca' }} role="button" target="_blank" rel="noopener noreferrer" alt="linkedin">
               <img src={linkedin} alt="" width={30}/>
             </a>
-
             <a href="https://github.com/praful-36" className="btn text-white btn-floating m-1" style={{ backgroundColor: '#333333' }} role="button" target="_blank" rel="noopener noreferrer" alt="github">
               <img src={github} alt="" width={30}/>
             </a>
