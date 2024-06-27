@@ -23,8 +23,6 @@ const Footer = () => {
               <img src={github} alt="" width={30}/>
             </a>
 
-
-
           </section>
 
         </div>

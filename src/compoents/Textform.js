@@ -47,45 +47,33 @@ export default function Textform() {
   return (
 
     <div className='textform' >
+
       <div className="container my-4">
-        <div className="mb-3">
-          <h2 className="my-3 text-light">Enter Your Text Here :-</h2>
-          <textarea className="form-control Textarea w-33" id="exampleFormControlTextarea1" rows={5} value={text} onChange={handletext} placeholder='Type Or Paste Your Text Here' ></textarea>
-        </div>
+        <h2 className="my-3 text-light" style={{ width: "25rem" }}>Enter Your Text Here :-</h2>
+        <textarea className="form-control Textarea w-33" id="exampleFormControlTextarea1" rows={5} value={text} onChange={handletext} placeholder='Type Or Paste Your Text Here' ></textarea>
       </div>
 
-      <div className="container my-4 w-33" >
+      <div className="container my-2 my-lg-4 p-0 w-33">
 
         <div className="text-summary d-flex justify-content-between my-3">
+
           <div className="total-words text-light">total words count:{text.split(" ").filter((element) => {
             return element.length !== 0
           }).length}</div>
-
           <div className="total-character text-light">total characters count:{text.length}</div>
+
         </div>
 
         <div className="d-flex justify-content-around w-33 Case">
           <button className="btn btn-success mx-3 my-3" onClick={handleUpperclick}>Convert to Upper Case</button>
           <button className="btn btn-success mx-3 my-3" onClick={handleLowerclick}>Convert to Lower Case</button>
-
           <button className="btn btn-success mx-3 my-3" onClick={handleCapitalizeclick}>Convert to Capitalize Word</button>
           <button className="btn btn-success mx-3 my-3" onClick={handleSentenceclick}>Convert to Sentence case</button>
-
           <button className="btn btn-success mx-3 my-3" onClick={handleCopy}>Copy to ClipBoard</button>
-
-
         </div>
-
-
-
+        
       </div>
 
-
-
     </div>
-
-
-
-
   )
 }

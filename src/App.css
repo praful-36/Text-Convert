@@ -1,49 +1,49 @@
-body{
+body {
   background-color: #5d6786;
 }
 
-.textform{
-  height: 74vh;
+.textform {
+  height: 70vh;
 }
 
-textarea{
+textarea {
   resize: none;
 }
 
-.Textarea::placeholder{
+.Textarea::placeholder {
   font-size: 30px;
   color: rgba(43, 43, 43, 0.33);
 }
 
-.text-summary{
+.text-summary {
   font-size: 20px;
 }
 
-.w-33{
+.w-33 {
   font-size: 24px;
 }
 
 @media only screen and (max-width: 500px) {
 
-  .Navbar{
-    width: 30rem!important;
+  .Navbar {
+    width: 28rem !important;
   }
 
-  .textform{
+  .textform {
     height: 90vh;
   }
-  
-.w-33{
-  width: 27rem;
-}
 
-.Case{
-  flex-direction: column;
-}
+  .w-33 {
+    width: 26rem;
+    font-size: 22px;
+  }
 
-.footer{
-  width: 30rem!important;
-}
+  .Case {
+    flex-direction: column;
+  }
+
+  .footer {
+    width: 28rem !important;
+  }
 
 }
-
