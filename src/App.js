@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <Router basename="/Text-Convert">
+      <Router basename="/Textify">
         <Navbar />    
         <Routes>
           <Route path="/" element={<Textform />} />
